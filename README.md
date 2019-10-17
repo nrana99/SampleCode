@@ -3,8 +3,8 @@ Nadims coding test. Programs are written in Python 3.7
 
 Steps to run the program with a single client. Repeat step 2 in separate process to spawn multiple parallel clients.
 
-python Nadim_Server.py
-python Nadim_Client.py
+1. python Nadim_Server.py
+2. python Nadim_Client.py
 
 NOTES
 ======
