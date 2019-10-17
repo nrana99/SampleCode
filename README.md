@@ -6,8 +6,9 @@ Steps to run the program with a single client. Repeat step 2 in separate process
 python Nadim_Server.py
 python Nadim_Client.py
 
+NOTES
+======
 
-'''
 o MyDict is a dictionary which will hold key,value pairs where key = input digits and value = count of occurences for this key.
 
 o Unique_Values is a SET data type since set data type retains uniqueness. The data structure is merely used to display that SET 
@@ -20,6 +21,6 @@ o A separate book-keeping thread is spawned and runs that displays statistics ev
 
 o Since accept() is a blocking call, I am spawning a master thread which will listen to the client and then spawns worker client threads
 
-o Iinitially I used list with NOT IN operator everytime I appeneded to the list but that was expensive. I implemented the solution
+o Initially I used list with NOT IN operator everytime I appeneded to the list but that was expensive. I implemented the solution
   using dictionary since dictionary implements hash table and extremely fast in searching for duplicate values
 
