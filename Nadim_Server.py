@@ -100,7 +100,11 @@ def BookKeeping_thread():
         print("Duplicate Count since last report: ", Duplicate_Count)
         print("Total Unique Count so far:", len(MyDict) )
         print("\n==========================================================\n")        
+        Unique_Count = 0
+        Duplicate_Count = 0
         time.sleep(10)
+
+
         
 
 ########################################################################
